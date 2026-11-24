@@ -3,22 +3,22 @@
 class PcapngAnalyzer < Formula
   desc "Plain-English diagnosis of pcap and pcapng network captures, in your browser"
   homepage "https://pcapnganalyzer.com"
-  version "2.6.0"
+  version "2.6.1"
   license :cannot_represent
 
   on_macos do
-    url "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/2.6.0/pcapng-analyzer-2.6.0-macos-universal.zip"
-    sha256 "ee74e4978bcbcb98898c45c5c9a0112afdb6ec5141ff99ca0b9b8706ef17ab20"
+    url "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/2.6.1/pcapng-analyzer-2.6.1-macos-universal.zip"
+    sha256 "9f4d7299ab1313d9afc6b47d5db4e99694e5b7ee486ffc423109b2ceb28569fb"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/2.6.0/pcapng-analyzer-2.6.0-linux-x64.tar.gz"
-      sha256 "33abdddbc52b430785d3d4763abda7493db6f81f456e07531e5466030be313f4"
+      url "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/2.6.1/pcapng-analyzer-2.6.1-linux-x64.tar.gz"
+      sha256 "375d6b91b1604a7a799887c9dfa945ccb6d1ebee6003451b925827961f61aacf"
     end
     on_arm do
-      url "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/2.6.0/pcapng-analyzer-2.6.0-linux-arm64.tar.gz"
-      sha256 "63157581e89ed2d762e56ce10ec0b8436b7d501cac0e35cacbac155f548754ea"
+      url "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/2.6.1/pcapng-analyzer-2.6.1-linux-arm64.tar.gz"
+      sha256 "4c2cde4fbb466b1ec1b54d8c95ce621aaf13b167e194117d674484bf0eb468a0"
     end
   end
 
